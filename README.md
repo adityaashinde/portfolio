@@ -6,7 +6,7 @@
 
 ## Live
 
-[Aditya Shinde]( )
+[Aditya Shinde](https://adityaashinde.github.io/portfolio/)
 
 ## About
 
