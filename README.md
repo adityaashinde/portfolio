@@ -2,7 +2,7 @@
 
 <p>Personal Portfolio Website</p>
 
-<a href=" "><img src="./img/readMe-portfolio.png"></a>
+<a href="https://adityaashinde.github.io/portfolio/"><img src="./img/readMe-portfolio.png"></a>
 
 ## Live
 
