@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="author" content="Aditya Shinde" />
+  <meta name="description" content="Personal Portfolio of Aditya Shinde" />
+  <meta name="keywords" content="Portfolio, Web Development" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome Downloaded -->
+  <link rel="stylesheet" href="all.min.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
+
+  <!-- DevIcon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css" />
+
+  <!-- Font Awesome Code
+    <script src="https://use.fontawesome.com/3ab69663a6.js"></script> -->
+  <title>Portfolio | Aditya Shinde</title>
+</head>
+
+<body>
+  <nav>
+    <ul class="nav-links">
+      <li>
+        <a href="#" style="border-bottom: 2px solid var(--blue)">Home</a>
+      </li>
+      <li><a onclick="window.location.href='about.html'">About</a></li>
+      <li><a onclick="window.location.href='projects.html'">Projects</a></li>
+      <li><a onclick="window.location.href='blogs.html'">Blogs</a></li>
+      <!-- <li><a onclick="jumpToDiv('contact')">Contact</a></li> -->
+    </ul>
+
+    <!-- <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div> -->
+  </nav>
+
+  <div class="intro">
+    <div class="text">
+      <div class="name">Aditya Shinde</div>
+      <div class="designation">Student | Developer | Web Dev Enthusiast</div>
+      <a onclick="jumpToDiv('contact')"><button class="action" type="button">Contact</button></a>
+    </div>
+
+    <img src="img/firstpagelogo.png" alt="Working" />
+  </div>
+
+  <div class="about-section-home">
+    <div class="title">About Me</div>
+
+    <div class="hr">
+      <hr />
+    </div>
+
+    <div class="about">
+      <img src="img/logo.jfif" alt="Aditya Shinde" />
+
+      <div class="text">
+        <p>Hey folks! 👋</p>
+
+        <p>
+          I'm Aditya Shinde, a junior year undergrad student. My field of
+          interest includes Web Development, UI Design, specifically Front-end. I am
+          proficient in HTML, CSS, Figma and currently exploring
+          JavaScript and Android Developement.
+        </p>
+
+        <a href="about.html"><button>Know More</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-section">
+    <div class="title">Skills</div>
+
+    <ul class="skill">
+      <div class="wrapper">
+        <i class="devicon-html5-plain colored"></i>
+        <div class="name">HTML5</div>
+      </div>
+
+      <div class="wrapper">
+        <i class="devicon-css3-plain colored"></i>
+        <div class="name">CSS3</div>
+      </div>
+      <!-- 
+        <div class="wrapper">
+          <i class="devicon-bootstrap-plain colored"></i>
+          <div class="name">Bootstrap</div>
+        </div> -->
+
+      <div class="wrapper">
+        <i class="devicon-javascript-plain colored"></i>
+        <div class="name">JavaScript</div>
+      </div>
+
+      <!-- <div class="wrapper">
+          <i class="devicon-jquery-plain colored"></i>
+          <div class="name">jQuery</div>
+        </div> -->
+
+
+
+      <div class="wrapper">
+        <i class="devicon-c-plain colored"></i>
+        <div class="name">C</div>
+      </div>
+
+      <!-- <div class="wrapper">
+          <i class="devicon-C-plain colored"></i>
+          <div class="name">C++</div>
+        </div> -->
+
+      <div class="wrapper">
+        <i class="devicon-python-plain colored"></i>
+        <div class="name">Python</div>
+      </div>
+
+      <div class="wrapper">
+        <i class="devicon-wordpress-plain colored"></i>
+        <div class="name">WordPress</div>
+      </div>
+
+      <div class="wrapper">
+        <i class="devicon-java-plain colored"></i>
+        <div class="name">Core Java</div>
+      </div>
+
+      <div class="wrapper">
+        <i class="devicon-mysql-plain colored"></i>
+        <div class="name">MySql</div>
+      </div>
+
+      <div class="wrapper">
+        <i class="devicon-git-plain colored"></i>
+        <div class="name">Git</div>
+      </div>
+
+      <div class="wrapper">
+        <i class="devicon-github-plain colored"></i>
+        <div class="name">Github</div>
+      </div>
+
+      <div class="wrapper">
+        <i class="devicon-figma-plain colored"></i>
+        <div class="name">Figma</div>
+      </div>
+
+      <div class="wrapper">
+        <i class="devicon-android-plain colored"></i>
+        <div class="name">Android</div>
+      </div>
+
+      <div class="wrapper">
+        <i class="devicon-vscode-plain colored"></i>
+        <div class="name">VS Code</div>
+      </div>
+    </ul>
+  </div>
+
+  <div class="project-section-home">
+    <div class="title">Projects</div>
+
+    <div class="project-home">
+      <div class="home-content">
+        I like to build projects to test my understanding and also believe in
+        showcasing my work. Feel free to checkout my hosted projects.
+        <br />
+        <a href="projects.html"><button>Checkout my Projects</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-section-home">
+    <div class="title">Blogs</div>
+
+    <div class="blog-home">
+      <div class="home-content">
+        I like to leverage my skills along with documenting my journey. Having
+        said that, I have already written 2 blogs and am working on more. Feel
+        free to check them out.
+        <br />
+        <a href="blogs.html"><button>Checkout my Blogs</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-section">
+    <div class="title">Connect with me!</div>
+
+    <div class="contact">
+
+      <a href="https://www.linkedin.com/in/aditya-shinde-77286121b" target="_blank" title="LinkedIn"><i
+          class="fab fa-linkedin"></i></a>
+
+      <a href="https://github.com/adityaashinde" target="_blank" title="GitHub"><i class="fab fa-github-square"></i></a>
+
+      <a href="https://twitter.com/_adii_shinde_?t=_hqSaFbD4zFum2_1Gw9LAA&s=09" target="_blank" title="Twitter"><i
+          class="fab fa-twitter-square"></i></a>
+
+      <a href="https://www.instagram.com/adii_shinde_/" target="_blank" title="Instagram"><i
+          class="fab fa-instagram-square"></i></a>
+
+      <a href="https://www.snapchat.com/add/adii_shinde87?share_id=FFdzJi6LmEU&locale=en-GB" target="_blank"
+        title="Snapchat"><i class="fab fa-snapchat-square"></i></a>
+    </div>
+
+
+    <div class="footer">Made by <u>aditya</u> @2022</div>
+  </div>
+
+  <!-- Scroll to Top -->
+  <div class="scroll-to-top">
+    <i class="fas fa-chevron-circle-up" onclick="scrollToTop()"></i>
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
